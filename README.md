@@ -22,7 +22,7 @@ Add the JitPack repository to your build file
 Add the dependency
 ```gradle
 	dependencies {
-		compile 'com.github.Andy671:Dachshund-Tab-Layout:v0.3.3'
+	        implementation 'com.github.oussamaniba:Gender-Picker-View:1.0.5'
 	}
 ```
 ## CREDITS
