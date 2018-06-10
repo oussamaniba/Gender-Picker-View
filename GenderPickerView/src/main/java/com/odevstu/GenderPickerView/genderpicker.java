@@ -61,7 +61,7 @@ public class genderpicker extends RelativeLayout {
     }
 
     public void initView(){
-        this.view = inflate(context, R.layout.layout, this);
+        this.view = inflate(context, R.layout.layout_gender, this);
 
         final Resources res = getResources();
         final int defaultColor = res.getColor(R.color.colorPrimary);
