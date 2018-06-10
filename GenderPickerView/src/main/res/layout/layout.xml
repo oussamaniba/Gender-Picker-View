@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/subtract_btn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:enabled="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/number_counter"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:background="@android:color/transparent"
+        android:gravity="center" />
+
+    <ImageButton
+        android:id="@+id/add_btn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+</LinearLayout>

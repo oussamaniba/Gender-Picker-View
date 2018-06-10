@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GenderChoice">
+        <attr name="backGroundColor" format="color"/>
+        <attr name="first" format="string"/>
+        <attr name="second" format="string" />
+        <attr name="third" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="backgroundDrawable" format="reference"/>
+    </declare-styleable>
+
+</resources>

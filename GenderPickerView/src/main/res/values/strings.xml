@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gender Picker</string>
+
+    <string name="first">Man</string>
+    <string name="second">Women</string>
+    <string name="third">Both</string>
+</resources>
