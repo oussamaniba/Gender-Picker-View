@@ -25,7 +25,7 @@ public class genderpicker extends RelativeLayout {
     private int styleAttr;
     private OnClickListener mListener;
     private TextView textView;
-    private ImageButton rightBtn, leftBtn;
+    private Button rightBtn, leftBtn;
     private View view;
     private OnValueChangeListener mOnValueChangeListener;
 
@@ -91,8 +91,6 @@ public class genderpicker extends RelativeLayout {
         textView = findViewById(R.id.number_counter);
         LinearLayout mLayout = findViewById(R.id.layout);
 
-        leftBtn.setColorFilter(textColor);
-        rightBtn.setColorFilter(textColor);
         textView.setTextColor(textColor);
         textView.setTextSize(textSize);
 

@@ -6,16 +6,14 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <ImageButton
+    <Button
         android:id="@+id/subtract_btn"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_weight="1"
         android:background="?selectableItemBackground"
         android:enabled="false"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
-        tools:ignore="VectorDrawableCompat" />
+        android:text="&#60;"/>
 
     <TextView
         android:id="@+id/number_counter"
@@ -26,14 +24,12 @@
         android:background="@android:color/transparent"
         android:gravity="center" />
 
-    <ImageButton
+    <Button
         android:id="@+id/add_btn"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_weight="1"
         android:background="?selectableItemBackground"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
-        tools:ignore="VectorDrawableCompat" />
+        android:text="&#62;"/>
 
 </LinearLayout>
