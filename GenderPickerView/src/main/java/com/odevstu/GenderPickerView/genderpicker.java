@@ -91,7 +91,12 @@ public class genderpicker extends RelativeLayout {
         textView = findViewById(R.id.number_counter);
         LinearLayout mLayout = findViewById(R.id.layout);
 
+        leftBtn.setTextColor(textColor);
+        rightBtn.setTextColor(textColor);
         textView.setTextColor(textColor);
+
+        leftBtn.setTextSize(textSize);
+        rightBtn.setTextSize(textSize);
         textView.setTextSize(textSize);
 
         if (drawable == null) {
